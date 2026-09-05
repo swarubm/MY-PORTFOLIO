@@ -4,7 +4,6 @@ export const PERSONAL_INFO = {
   name: "SWAROOP B M",
   role: "Aspiring Data Scientist & Machine Learning Engineer",
   email: "swaroopbm352004@gmail.com",
-  phone: "+91 9110656049",
   location: "India",
   summary: "Detail-oriented and results-driven data scientist skilled in machine learning, predictive modeling, and statistical analysis. Experienced in building end-to-end data-driven solutions using Python, Scikit-learn, Pandas, and NumPy. Proficient in data preprocessing, feature engineering, EDA, and model evaluation for actionable insights.",
   socials: {
