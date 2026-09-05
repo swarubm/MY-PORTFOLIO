@@ -1,6 +1,6 @@
 import React from 'react';
 import { PERSONAL_INFO } from '../constants';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -23,10 +23,6 @@ const Contact: React.FC = () => {
               {PERSONAL_INFO.email}
             </a>
             <div className="flex items-center text-slate-400">
-              <Phone className="w-5 h-5 mr-3" />
-              {PERSONAL_INFO.phone}
-            </div>
-             <div className="flex items-center text-slate-400">
               <MapPin className="w-5 h-5 mr-3" />
               {PERSONAL_INFO.location}
             </div>
